@@ -99,11 +99,11 @@ class ModeButton extends React.PureComponent {
       backgroundColor: "#6c63ff",
       border: "none",
       boxShadow: "0 0 4px #6c63ff",
-      width: "36px",
-      height: "36px",
+      width: "38px",
+      height: "38px",
       margin: "26px 8px",
       borderRadius: "50%",
-      padding: "8px",
+      padding:8,
       outline: "none"
     };
     const { mode } = this.props
@@ -131,10 +131,11 @@ class BookmarkButton extends React.PureComponent {
       backgroundColor: bgColor,
       border: "2px solid #6c63ff", 
       boxShadow: "0 0 4px #6c63ff",
-      width: "36px",
-      height: "36px",
+      width: "38px",
+      height: "38px",
       margin: "26px 8px",
       borderRadius: "50%",
+      padding:6,
       outline: "none"
     };
     return (
